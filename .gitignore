@@ -1,0 +1,21 @@
+# Python environment
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Credentials and secrets
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+credentials.json
+service-account*.json
+
+# Generated embedding data
+data/document_embeddings.json
+
+# Local files
+.DS_Store
+*.log
